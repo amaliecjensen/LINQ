@@ -19,6 +19,27 @@
             foreach (var book in cheapBooks)
                 //Console.WriteLine(book.Title + " " + book.Price);
                 System.Console.WriteLine(book);
+
+            // more LINQ Extension Methods
+            var singleBook = books.SingleOrDefault(b => b.Title == "ASP.NET MVC++");
+
+            var firstBook = books.First(b => b.Title == "ASP.NET MVC++");
+
+
+            var returnsnullifnone = books.FirstOrDefault(b => b.Title == "ASP.NET MVC++");
+
+            //skips the first 2 and takes 3
+            var books3 = books.Skip(2).Take(3);
+
+
+            var count = books.Count();
+
+
+            var maxPrice = books.Max(b=> b.Price);
+
+            var minPrice = books.Min(b=> b.Price);
+            
+
         }
     }
 }
