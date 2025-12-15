@@ -1,0 +1,1 @@
+LINQ (Language Integrated Query) i C# er en teknologi, der gør det muligt at skrive forespørgsler direkte i C#-koden for at hente og manipulere data fra forskellige datakilder, som fx lister, arrays, databaser eller XML. LINQ gør det nemt og læsbart at filtrere, sortere og udvælge data med en syntaks, der minder om SQL, men integreret i C#-sproget.
